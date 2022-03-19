@@ -24,7 +24,7 @@ while getopts a:p:h flag; do
 	case "${flag}" in
 		a) address=${OPTARG};;
 		p) password=${OPTARG};;
-		h) showHelp=true;;
+		h) usage;;
 		*) usage
 	esac
 done
