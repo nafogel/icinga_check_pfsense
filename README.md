@@ -9,4 +9,4 @@ Simply add the `check_pfsense_*` scripts to the plugins directory for your Icing
 
 ## Usage
 Each script accepts two arguments, `-a` and `-p`, which should be the IP address and password for the pfSense device you wish to monitor.
-Additionally, each script contains several global variables at the top, representing the SNMP OIDs used to pull the relevant data.
+Additionally, each script contains several global variables at the top, representing the SNMP OIDs used to pull the relevant data. These can be changed if your device uses different OIDs than the ones in the scripts.
